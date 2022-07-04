@@ -4,6 +4,7 @@ import { tw } from "@twind";
 
 
 export default function Articles() {
+  const username="EvansCoder"
   return (
       <article class={tw`max-w-screen-md px-4 pt-8 md:pt-16 mx-auto`}>
         <h1 class={tw`text-5xl text-gray-900 font-bold`}>Fresh 1.0 Review</h1>
@@ -26,7 +27,7 @@ export default function Articles() {
             <p><a class={tw`hover:underline" href="https://github.com/lucacasonato`}>Wanga Evans</a></p>
         </div>
             <hr class={tw`my-8`}></hr>
-            <a href="/test" class={tw`bg-[whitesmoke] p-4 rounded`}>Click Me</a>
+            <a href={`/github/${username}`} class={tw`bg-[whitesmoke] p-4 rounded`}>Click Me</a>
       </article>
   );
 }
