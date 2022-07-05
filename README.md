@@ -11,6 +11,7 @@ deno task start
 This will watch the project directory and restart as necessary.
 
 
-[link](https://deno-fresh-start-0nw8rhk8016g.deno.dev/
+[Check  the final production build](https://deno-fresh-start-0nw8rhk8016g.deno.dev/
 )
-
+```
+Deployed with #Deno deploy```
